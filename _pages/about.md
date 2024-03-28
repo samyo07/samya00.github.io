@@ -19,21 +19,12 @@ Throughout my academic journey, I actively participated in programming competiti
 
 
 
-
-Education
-======
-Daffodil International University <br>
-Bachelor of Science in Computer Science and Engineering<br>
-CGPA : 3.76/4.00<br>
+Education               Research Interests
+=========               ===================
+Daffodil International  - Computer Vision for Health Applications
+University              - Graph Neural Networks
+Bachelor of Science    - Interpretability and Explainable AI
+in Computer Science     - Generative Adversarial Networks
+and Engineering         - Autonomous Systems
+CGPA: 3.76/4.00
 February 2024
-
-Research Interests
-======
-<ul>
-  <li>Computer Vision for Health Applications</li>
-  <li>Graph Neural Networks</li>
-  <li>Interpretability and Explainable AI</li>
-  <li>Generative Adversarial Networks</li>
-  <li>Autonomous Systems</li>
-</ul>
-
