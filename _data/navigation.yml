@@ -3,9 +3,10 @@ main:
   # - title: "Publications"
   #   url: /publications/
 
-    
+  # - title: "Talks"
+  #   url: /talks/    
 
-  - title: "Projects"
+  - title: "Teaching"
     url: /teaching/    
     
   - title: "Portfolio"
@@ -16,10 +17,6 @@ main:
     
   - title: "CV"
     url: /cv/
-
-  - title: "Bucket List"
-     url: /talks/ 
-
     
-  - title: "Favorites"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
