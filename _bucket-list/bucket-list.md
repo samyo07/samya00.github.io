@@ -1,20 +1,155 @@
----
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
----
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Linking style.css -->
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <!-- Linking Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+  <!-- Linking Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Linking font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Page Title -->
+  <title>Bucket List - Sanjay Acharjee</title>
+  <style>
+    /* Custom CSS to style the checkboxes */
+    .item-checkbox {
+      margin-right: 10px;
+    }
 
-This is a description of a teaching experience. You can use markdown like any other post.
+    .item-checkbox:checked {
+      background-color: lightgray;
+      border-color: lightgray;
+    }
 
-Heading 1
-======
+    .item-checkbox:checked::before {
+      content: '\2713';
+      display: block;
+      color: #000;
+      text-align: center;
+      font-size: 14px;
+      line-height: 16px;
+    }
 
-Heading 2
-======
+    .item-checkbox:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
 
-Heading 3
-======
+    .item-checkbox:disabled:checked {
+      background-color: lightgray;
+      border-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <header>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="Achievements.html">Achievements</a></li>
+          <li><a href="/bucket_list.html" class="active">Bucket List</a></li>
+          <li><a href="/favorites.html" >Favorites</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h2>Bucket List</h2>
+    <!-- <p>Progress as of July 1, 2023: 39.75/91.</p> -->
+    <p>Progress as of July 1, 2023</p>
+
+    <ul class="bucket-list">
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" checked disabled />
+          Provide financial support and mentorship to enable someone to gain admission into an undergraduate program that would otherwise be financially or academically out of reach for them
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Conduct research in computational neuroscience and contribute to the development of technologies aimed at restoring vision for the visually impaired. <a href="https://www.facebook.com/watch/?v=486813910180566">Motivation</a>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Attend a Coldplay concert in person
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Visit 50 countries (~4% done)
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Paragliding
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" checked disabled />
+          Live in another country
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Become the first author of a paper at a top-tier conference
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Read 1000 books (~2% done)
+        </label>
+      </li>
+      <!-- <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Make one million dollars
+        </label>
+      </li> -->
+      <!-- <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Teach a graduate-level course
+        </label>
+      </li> -->
+      <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Start a company
+        </label>
+      </li>
+      <!-- <li>
+        <label>
+          <input type="checkbox" class="item-checkbox" disabled />
+          Author a patent
+        </label>
+      </li> -->
+      <!-- Rest of the list items... -->
+    </ul>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
