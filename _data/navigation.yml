@@ -18,8 +18,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Bucket List"
-    url: /bucket-list/
+  - title: "My Bucket List"
+    url : /list/
+
+  # - title: "Bucket List"
+  #   url: /bucket-list/
     
   # - title: "Guide"
   #   url: /markdown/
