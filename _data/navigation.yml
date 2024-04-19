@@ -6,8 +6,8 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Projects"
+  #   url: /projects/    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -18,11 +18,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "My Bucket List"
-    url : /list/
+  # - title: "My Bucket List"
+  #   url : /list/
 
-  # - title: "Bucket List"
-  #   url: /bucket-list/
+  - title: "Bucket List"
+    url: /bucket-list/
     
   # - title: "Guide"
   #   url: /markdown/
